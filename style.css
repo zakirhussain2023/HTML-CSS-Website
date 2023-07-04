@@ -1,0 +1,456 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.container{
+    width: 1170px;
+    margin:0 auto;
+    padding-left:15px ;
+    padding-right: 15px;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.flex-item1{
+    width:8.33%;
+    flex:0 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.flex-item2{
+    width:16.66%;
+    flex:0 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.flex-item3{
+    width:25%;
+    flex:0 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.flex-item4{
+    width:33.33%;
+    flex:0 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.flex-item5{
+    width:41.66%;
+    flex:0 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.flex-item6{
+    width:50%;
+    flex:0 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.flex-item7{
+    width:58.33%;
+    flex:0 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.flex-item8{
+    width:66.66%;
+    flex:0 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.flex-item9{
+    width:75%;
+    flex:0 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.flex-item10{
+    width:83.33%;
+    flex:0 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.flex-item11{
+    width:91.66%;
+    flex:0 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.flex-item12{
+    width:100%;
+    flex:0 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* header Section Starts */
+
+.header{
+    background-color:yellow;
+    padding: 20px 0;
+}
+/* navbar logo starts */
+
+.logo{
+    height: 50px;
+    width: auto;
+    background-color: red;
+
+}
+/* header logo ends */
+/* navbar starts  */
+.navbar{
+    height: 50px;
+    width: auto;
+    background-color: red;
+}
+
+/* navbar ends */
+
+
+/* header Section Ends */
+
+/* banner section starts */
+
+.banner{
+    background-color: red;
+    padding: 80px;
+
+}
+
+.ban_cnt{
+    height:200px;
+    width:auto;
+    background-color: yellow;
+}
+
+/* banner section ends */
+/* list  section starts */
+.list{
+    background-color: yellow;
+    padding: 50px;
+}
+
+.list_cnt{
+    height: 50px;
+    width:auto;
+    background-color:red ;
+}
+/* list section ends */
+
+/* banner1 starts */
+.banner1{
+    background-color: red;
+    padding:62px 42px;
+}
+
+.banner1_cnt{
+    height: 300px;
+    width: auto;
+    background-color: yellow;
+}
+
+.bannner1_cnt1{
+    height: 300px;
+    width: auto;
+    background-color: yellow;
+}
+/* banner1 section ends */
+
+/* data section starts */
+
+.data{
+    background-color: yellow;
+    padding:50px 46px ;
+}
+
+.data_cnt{
+    height:70px;
+    width: auto;
+    background-color: red;
+}
+/* data section ends */
+
+/* card section starts */
+.card{
+    background-color: red;
+    padding:50px 46px ;
+}
+
+.card_heading{
+    height:70px;
+    width: auto;
+    background-color: yellow;
+}
+
+.card1{
+    background-color:yellow;
+    padding: 45px;
+
+}
+
+.card_details{
+    height:450px;
+    width:auto;
+    background-color: red;
+}
+
+/* card section ends */
+
+/* service section starts */
+.services{
+    background-color: red;
+    padding: 50px;
+}
+
+.title{
+    height:50px;
+    width: auto;
+    background-color: yellow;
+}
+
+.para{
+    height:50px;
+    margin-top: 10px;
+    width: auto;
+    background-color: yellow;
+}
+
+.service_details{
+    margin-top: 10px;
+    height:450px;
+    width:auto;
+    background-color: yellow;
+}
+
+/* service section ends */
+/* portfolio section starts  */
+
+.portfolio{
+    background-color: yellow;
+    padding: 50px;
+}
+
+.portfolio_title{
+    height:50px;
+    width: auto;
+    background-color: red;
+}
+
+.para1{
+    height:50px;
+    margin-top: 10px;
+    width: auto;
+    background-color: red;
+}
+
+.portfolio-row{
+    margin-top: 10px;
+    height:250px;
+    width: auto;
+    background-color: red;
+}
+
+.portfolio-row1{
+    margin-top: 10px;
+    height:250px;
+    width: auto;
+    background-color: red;
+}
+
+.portfolio-row2{
+    margin-top: 10px;
+    height:250px;
+    width: auto;
+    background-color: red;
+}
+
+/* portfolio section ends */ 
+
+/* testimonials section starts */
+
+.testimonials{
+    background-color: red;
+    padding: 50px;
+}
+.test_title{
+    height:50px;
+    width: auto;
+    background-color: yellow;
+}
+
+.para2{
+    height:50px;
+    margin-top: 10px;
+    width: auto;
+    background-color: yellow;
+}
+
+.testi{
+    margin-top: 10px;
+    height:200px;
+    width: auto;
+    background-color: yellow;
+}
+
+
+/* testimonials section ends */
+/* Pricing section starts */
+
+.pricing{
+    background-color: yellow;
+    padding: 50px;
+}
+.pricing_title{
+    height:50px;
+    width: auto;
+    background-color: red;
+}
+
+.para3{
+    height:50px;
+    margin-top: 10px;
+    width: auto;
+    background-color: red;
+}
+
+.pricing_details{
+    margin-top: 10px;
+    height:500px;
+    width: auto;
+    background-color: red;
+}
+/* Pricing section ends */
+/* faq section starts */
+
+.faq{
+    background-color: red;
+    padding: 50px;
+}
+
+.faq_title{
+    height:50px;
+    width: auto;
+    background-color: yellow;
+    margin:0 auto;
+    margin: 10px 50px;
+}
+
+
+.faq1{
+    margin-top: 10px;
+    height:50px;
+    margin-top: 10px;
+    width: auto;
+    background-color: yellow;
+}
+/* faq section starts */
+/* team section starts */
+
+.team{
+    background-color: yellow;
+    padding: 50px;
+}
+.team_title{
+    height:50px;
+    width: auto;
+    background-color: red;
+}
+
+.para4{
+    height:50px;
+    margin-top: 10px;
+    width: auto;
+    background-color: red;
+}
+
+.team_details{
+    margin-top: 10px;
+    height:300px;
+    width: auto;
+    background-color: red;
+}
+/* team section starts */
+/* Contact section starts */
+
+.contact{
+	background-color:red;
+	padding:15px 0;
+}
+
+.contact_title{
+	height:30px;
+	background-color:yellow;
+	margin:10px 50px;
+	
+}
+.para5{
+    height:35px;
+    margin: 10px 48px;
+    width: 91.5%;
+    background-color: yellow;
+}
+
+
+.contact_left{
+	height:350px;
+	background-color:yellow;
+	margin:10px;
+	padding:10px 0;
+	display:flex;
+	flex-wrap:wrap;
+}
+.contact_address{
+	height:100px;
+	background-color:red;
+	margin:10px 0;
+}
+.contact_mail{
+	height:130px;
+	background-color:red;
+	margin:10px 0;
+}
+.contact_call{
+	height:130px;
+	background-color:red;
+	margin:10px 0;
+}
+	
+.contact_message{
+	height:350px;
+	background-color:yellow;
+	margin:10px
+}
+/* Contact Section Ends */	
+
+/* footer Section Starts */	
+
+.footer{
+	background-color:yellow;
+	padding:25px 0;
+}
+.footer_content{
+	height:100px;
+	background-color:red;
+}
+/* footer Section Ends*/	
