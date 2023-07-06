@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+
 *{
     margin:0;
     padding:0;
@@ -106,25 +112,75 @@
 /* header Section Starts */
 
 .header{
-    background-color:yellow;
+    background-color:#ffffff;
     padding: 20px 0;
 }
 /* navbar logo starts */
 
-.logo{
-    height: 50px;
-    width: auto;
-    background-color: red;
 
+.logo{
+    width: auto;
+    background-color:#ffffff;
+}
+
+.logo a{
+    text-decoration:none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight:600;
+    padding-left: 20px;
+    color:#111111;
+}
+
+span{
+    color:red;
 }
 /* header logo ends */
 /* navbar starts  */
 .navbar{
-    height: 50px;
     width: auto;
-    background-color: red;
+    background-color: #ffffff;
+    display: flex;
 }
 
+.navbar a{
+    text-decoration: none;
+    padding-left: 26px;
+    color:black;
+    font-family: 'Raleway', sans-serif;
+    font-weight:600;
+}
+
+.navbar a:hover{
+    color:red;
+}
+
+.navbar ul{
+    display:flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar  a.btn{
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #e03a3c;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+    color:white;
+    font-weight: 600;
+}
+
+
+.navbar a.btn:hover{
+    background-color:#111111;
+    transition:all 0.3s ease;
+}
+
+select{
+    border:none;
+}
 /* navbar ends */
 
 
@@ -135,27 +191,93 @@
 .banner{
     background-color: red;
     padding: 80px;
+    background-image: url(./images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+    /* background-position-y: -70px; */
+    height: 600px;
+    width: auto;
+    
+}
+
+
+
+.banner:before{
+    content: "";
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+}
+
+
+.ban_cnt{
+    height:300px;
+    width:auto;
+    margin-right: 50px;
+    filter: brightness(1.5);
 
 }
 
-.ban_cnt{
-    height:200px;
-    width:auto;
-    background-color: yellow;
+.ban_cnt h1{
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.ban_cnt h2{
+    font-family: 'Raleway',sans-serif;
+    color: #ffffff;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.ban_cnt a.btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #e03a3c;
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+
+.ban_cnt a.btn:hover{
+    background-color:#111111;
+    transition:all 0.3s ease;
 }
 
 /* banner section ends */
 /* list  section starts */
 .list{
-    background-color: yellow;
+    background-color: #ffffff;
     padding: 50px;
 }
 
 .list_cnt{
     height: 50px;
     width:auto;
-    background-color:red ;
 }
+
+.list_cnt img{
+    width: 70%;
+    filter: grayscale(100%);
+}
+
+.list_cnt img:hover{
+    filter:none;
+}
+
+
 /* list section ends */
 
 /* banner1 starts */
@@ -406,19 +528,21 @@
 }
 .para5{
     height:35px;
-    margin: 10px 48px;
     width: 91.5%;
     background-color: yellow;
+    margin: 10px 48px;
+    
 }
 
 
 .contact_left{
 	height:350px;
 	background-color:yellow;
+    display:flex;
+	flex-wrap:wrap;
 	margin:10px;
 	padding:10px 0;
-	display:flex;
-	flex-wrap:wrap;
+	
 }
 .contact_address{
 	height:100px;
@@ -432,8 +556,9 @@
 }
 .contact_call{
 	height:130px;
-	background-color:red;
+    background-color:red;
 	margin:10px 0;
+
 }
 	
 .contact_message{
