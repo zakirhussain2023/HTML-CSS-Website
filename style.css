@@ -193,13 +193,11 @@ select{
     padding: 80px;
     background-image: url(./images/hero-bg.jpg);
     background-repeat: no-repeat;
-    background-position: top center;
     background-size: cover;
     position: relative;
-    /* background-position-y: -70px; */
+    background-position-y: -70px; 
     height: 600px;
     width: auto;
-    
 }
 
 
